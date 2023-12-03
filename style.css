@@ -42,7 +42,7 @@ body {
   width: 90%;
   margin: 20px auto;
   display: flex;
-  text-align: justify;
+  text-align: left;
   padding: 0 5px;
   align-items: center;
   border: 2px solid rgb(190, 187, 187);
@@ -58,4 +58,21 @@ body {
 #delbtn {
   background-color: rgb(202, 70, 70);
   width: 20%;
+}
+@media only screen and (max-width: 750px) {
+  #container {
+    width: 80%;
+  }
+  #container input {
+    width: 60%;
+    font-size: 16px;
+  }
+  #addbtn,
+  #delbtn {
+    font-size: 15px;
+    padding: 3px 3px;
+  }
+  #delbtn {
+    width: 30%;
+  }
 }
